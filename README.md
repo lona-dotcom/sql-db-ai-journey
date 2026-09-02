@@ -20,3 +20,5 @@
  SQL (Deadline: 03/01/2027)
 - [ ] Phase 10:  Projet Capstone (PostgreSQL + uckDB + Agent IA) (Deadline: 17/01/2027)
 - [ ] Phase 10: Finalisation portfolio GitHub + CV/LinkedIn (Deadline: 24/01/2027)
+
+"Le Travail dépasse la motivation"
