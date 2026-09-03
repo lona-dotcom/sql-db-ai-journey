@@ -1,0 +1,753 @@
+# ============================================
+# .gitignore pour SQL - DB AI JOURNEY
+# Projet : SQL, Bases de Données & Intelligence Artificielle
+# ============================================
+
+# ============================================
+# ENVIRONNEMENT VIRTUEL PYTHON
+# ============================================
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+.venv.bak/
+
+# Virtual Environment files
+venv/bin/
+venv/include/
+venv/lib/
+venv/lib64/
+venv/pyvenv.cfg
+venv/Scripts/
+venv/share/
+
+# ============================================
+# FICHIERS PYTHON
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+.tests_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+doc/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================
+# FICHIERS DE BASE DE DONNÉES
+# ============================================
+
+# Fichiers SQL générés
+*.sql.generated
+*.sql.temp
+*.sql.backup
+*.sql.orig
+*_output.sql
+*_result.sql
+*_export.sql
+
+# Fichiers de base de données
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Dumps SQL
+*.dump
+*.sql.gz
+*.sql.bz2
+*.sql.zip
+*.backup
+*.psql
+
+# PostgreSQL
+*.pgdump
+*.pg_restore
+*.pgsql
+postgresql.conf
+pg_hba.conf
+pg_ident.conf
+recovery.conf
+postgresql.auto.conf
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+*.db
+*.db.wal
+
+# MySQL
+*.sql.gz
+*.ibd
+*.frm
+*.MYD
+*.MYI
+
+# MongoDB
+*.bson
+*.mongodump
+
+# Redis
+*.rdb
+*.aof
+
+# ============================================
+# FICHIERS DE DONNÉES (DATA)
+# ============================================
+
+# Données volumineuses
+data/*.csv
+data/*.tsv
+data/*.tab
+data/*.parquet
+data/*.h5
+data/*.hdf5
+data/*.pkl
+data/*.pickle
+data/*.json
+data/*.jsonl
+data/*.xml
+data/*.xlsx
+data/*.xls
+data/*.xlsm
+!data/sample_*.csv
+!data/example_*.csv
+!data/sample_*.xlsx
+
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.parquet
+data/interim/*.csv
+data/external/*.csv
+data/raw/*.db
+data/processed/*.db
+
+# Données sensibles
+data/credentials.json
+data/config.json
+data/secrets.json
+data/passwords.json
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# ============================================
+# FICHIERS NOTEBOOKS
+# ============================================
+
+# Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+notebooks/*/.ipynb_checkpoints/
+
+# Notebook exports
+notebooks/*.html
+notebooks/*.pdf
+notebooks/*.slides.html
+notebooks/*.pptx
+
+# Notebook outputs (optionnel)
+notebooks/outputs/
+notebooks/results/
+notebooks/cache/
+
+# ============================================
+# FICHIERS DE LOGS ET TEMPORAIRES
+# ============================================
+
+# Logs
+*.log
+*.log.*
+logs/
+log/
+debug.log
+error.log
+access.log
+sql.log
+query.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.old
+*.new
+*.orig
+*.rej
+*.diff
+*.patch
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# ============================================
+# FICHIERS D'IDE ET ÉDITEURS
+# ============================================
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.vim
+*.vimrc
+*.gvimrc
+*.swp
+*.swo
+*.un~
+# Vim swap files
+.*.swp
+.*.swo
+
+# Emacs
+*~
+\#*
+.\#*
+
+# Notepad++
+*.bak
+
+# ============================================
+# FICHIERS DE VERSION ET GIT
+# ============================================
+
+# Git
+*.orig
+*.rej
+*.patch
+*.diff
+.gitattributes.local
+.gitconfig.local
+.gitmodules.local
+
+# ============================================
+# FICHIERS SPÉCIFIQUES AU PROJET SQL-DB-AI
+# ============================================
+
+# Outputs et résultats par phase
+phase-1-sql-fongamental/outputs/
+phase-1-sql-fongamental/results/
+phase-1-sql-fongamental/cache/
+phase-1-sql-fongamental/temp/
+phase-1-sql-fongamental/queries/
+phase-1-sql-fongamental/*_result.sql
+
+phase-2-postgresql-modelisation/outputs/
+phase-2-postgresql-modelisation/results/
+phase-2-postgresql-modelisation/cache/
+phase-2-postgresql-modelisation/temp/
+phase-2-postgresql-modelisation/migrations/
+phase-2-postgresql-modelisation/schemas/
+
+phase-3-sql-avance/outputs/
+phase-3-sql-avance/results/
+phase-3-sql-avance/cache/
+phase-3-sql-avance/temp/
+phase-3-sql-avance/optimizations/
+phase-3-sql-avance/*_performance.sql
+
+phase-4-duckdb/outputs/
+phase-4-duckdb/results/
+phase-4-duckdb/cache/
+phase-4-duckdb/temp/
+phase-4-duckdb/*.duckdb
+
+phase-5-python-bd/outputs/
+phase-5-python-bd/results/
+phase-5-python-bd/cache/
+phase-5-python-bd/temp/
+
+phase-6-modelisation-avance/outputs/
+phase-6-modelisation-avance/results/
+phase-6-modelisation-avance/cache/
+phase-6-modelisation-avance/temp/
+phase-6-modelisation-avance/models/
+
+phase-7-consolidation-portfolio/outputs/
+phase-7-consolidation-portfolio/results/
+phase-7-consolidation-portfolio/cache/
+phase-7-consolidation-portfolio/temp/
+
+phase-8-fondamentaux-ia/outputs/
+phase-8-fondamentaux-ia/results/
+phase-8-fondamentaux-ia/cache/
+phase-8-fondamentaux-ia/temp/
+phase-8-fondamentaux-ia/models/
+phase-8-fondamentaux-ia/*.h5
+phase-8-fondamentaux-ia/*.pth
+phase-8-fondamentaux-ia/*.pkl
+phase-8-fondamentaux-ia/*.onnx
+
+phase-10-projet-capstone/outputs/
+phase-10-projet-capstone/results/
+phase-10-projet-capstone/cache/
+phase-10-projet-capstone/temp/
+phase-10-projet-capstone/databases/
+phase-10-projet-capstone/reports/
+
+phase-11-finalisation-portfolio/outputs/
+phase-11-finalisation-portfolio/results/
+phase-11-finalisation-portfolio/cache/
+phase-11-finalisation-portfolio/temp/
+phase-11-finalisation-portfolio/portfolio/
+phase-11-finalisation-portfolio/deployment/
+
+# Fichiers Python par phase
+*phase*/__pycache__/
+*phase*/.ipynb_checkpoints/
+*phase*/temp/
+*phase*/cache/
+
+# ============================================
+# FICHIERS DE CONFIGURATION SENSIBLES
+# ============================================
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+.env.example  # Garder l'exemple
+
+# Configuration de base de données
+database.ini
+database.conf
+db_config.json
+db_config.yaml
+config.local.json
+config.local.yaml
+settings.local.py
+credentials.local.py
+
+# Secrets
+secrets/
+secrets.json
+secrets.yaml
+.api_keys
+*.secret
+password.txt
+passwords.txt
+db_password.txt
+
+# ============================================
+# FICHIERS DE DONNÉES EXTERNES
+# ============================================
+
+# Téléchargements automatiques
+downloads/
+tmp_data/
+external_data/
+data_downloads/
+
+# API caches
+api_cache/
+cache_data/
+sql_cache/
+query_cache/
+
+# ============================================
+# ARCHIVES ET COMPRESSIONS
+# ============================================
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.xz
+*.gz
+*.Z
+*.lz
+*.lzma
+
+# ============================================
+# OS SPECIFICS
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+*.pid
+*.lock
+*.socket
+*.sock
+.*.swp
+.*.swo
+
+# ============================================
+# FICHIERS DE TEST ET DEBUG
+# ============================================
+
+# Test outputs
+test_output/
+test_results/
+tests/__pycache__/
+tests/.pytest_cache/
+tests/test*.db
+tests/test*.sqlite
+tests/*.test.sql
+
+# Debug logs
+debug.log
+debug.txt
+*.dbg
+*.trace
+
+# Profiling data
+*.prof
+*.pstats
+*.dot
+*.png
+*.gv
+
+# ============================================
+# FICHIERS DE DOCUMENTATION GÉNÉRÉS
+# ============================================
+
+# Documentation générée
+docs/_build/
+docs/build/
+docs/source/_build/
+site/
+*.epub
+*.mobi
+*.chm
+
+# ============================================
+# EXCEPTIONS (CE QUI NE DOIT PAS ÊTRE IGNORÉ)
+# ============================================
+
+# ! - NE PAS IGNORER CES FICHIERS/DOSSIERS
+!README.md
+!.gitignore
+!.gitattributes
+!requirements.txt
+!setup.py
+!Makefile
+!docker-compose.yml
+!Dockerfile
+!.env.example
+!database.example.ini
+!config.example.json
+!config.example.yaml
+!settings.example.py
+
+# Garder les fichiers d'exemple
+!data/sample_*.csv
+!data/example_*.csv
+!data/sample_*.xlsx
+!data/sample_*.db
+!notebooks/examples/
+!*phase*/examples/
+!*phase*/sample_outputs/
+!*phase*/example_queries.sql
+
+# Garder les schémas de base de données
+!*phase*/schemas/
+!*phase*/migrations/
+!*phase*/queries/
+
+# Garder les fichiers SQL d'exemple
+!*phase*/*.sql.example
+!*phase*/examples/*.sql
+
+# ============================================
+# FICHIERS DE BASE DE DONNÉES - EXCEPTIONS
+# ============================================
+
+# Garder les bases de données d'exemple (petites)
+!data/sample_*.db
+!data/example_*.sqlite
+!datasets/sample_*.db
+!*phase*/sample_data/*.db
+
+# ============================================
+# DOCKER ET CONTENEURS
+# ============================================
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+*.container
+*.image
+
+# PostgreSQL Docker
+postgres-data/
+postgresql-data/
+pgdata/
+*.pgdata
+
+# Docker volumes
+volumes/
+data/volumes/
+
+# ============================================
+# SQL SPECIFICS
+# ============================================
+
+# SQL Workbench
+*.sqlwb
+*.sqlwb.temp
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+
+# MySQL Workbench
+*.mwb
+*.mwb.bak
+*.wb
+
+# DBeaver
+*.dbeaver
+*.dbeaver-data
+.dbeaver/
+
+# pgAdmin
+*.pgadmin
+.pgadmin/
+
+# ============================================
+# POSTGRESQL SPÉCIFIQUE
+# ============================================
+
+# PostgreSQL logs
+*.log
+postgresql.log
+postgresql-*.log
+pg_log/
+
+# PostgreSQL temp files
+postgresql.temp
+*.postgresql.temp
+
+# ============================================
+# DUCKDB SPÉCIFIQUE
+# ============================================
+
+# DuckDB temp files
+*.duckdb.temp
+*.duckdb.wal.temp
+duckdb_temp/
+.duckdb/
+
+# ============================================
+# ORCHESTRATION ET SCHEDULING
+# ============================================
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+logs/
+airflow/logs/
+dags/__pycache__/
+plugins/__pycache__/
+
+# Prefect
+.prefect/
+prefect.db
+
+# Dagster
+.dagster/
+dagster.db
