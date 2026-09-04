@@ -22,3 +22,5 @@
 - [ ] Phase 10: Finalisation portfolio GitHub + CV/LinkedIn (Deadline: 24/01/2027)
 
 "Le Travail dépasse la motivation"
+"A force de le dire, on finit par le croire. A force de croire, on finit par l'être"
+"Tsy misy mafy tsy laitran'ny zoto"
