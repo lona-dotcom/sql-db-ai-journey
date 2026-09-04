@@ -24,3 +24,5 @@
 - "Le Travail dépasse la motivation"
 - "A force de le dire, on finit par le croire. A force de croire, on finit par l'être"
 - "Tsy misy mafy tsy laitran'ny zoto"
+- "Mandehana dieny malaina fa rehefa mazoto tsy afaka intsony"
+- "c'est toi qui ecris ta propre histoire. Ne laisse pas d'autre personne l'écrire. C'est toi qui la joues"
