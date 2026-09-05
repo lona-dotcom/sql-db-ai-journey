@@ -186,6 +186,7 @@ cython_debug/
 *.db-journal
 *.db-wal
 *.db-shm
+*.duckdb
 
 # Dumps SQL
 *.dump
